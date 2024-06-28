@@ -1,0 +1,37 @@
+
+(1p) Create Java project(s) in Eclipse/IntelliJ and classes for managing houses expenses for utilities (such as: water, common parts electricity, garbage, administration of the houses buildings, etc.)
+
+Show constructors, get/set methods and highlight "has a" and "is a" relationship, also use interfaces and exceptions handling.
+
+
+(1p) Build a TCP server for receiving text files with houses expenses per month in multi-threading manner.
+
+
+(1p) Build a TCP client for sending the 2 text files for the houses expenses managed by admin company. The text files have the following structure:
+
+# comments of file 1
+
+# id_house, location, admin_company, water_in_consumption (m3), water_out_consumption (m3), recycled_waste_garbage_weight (kg), waste_garbage_weight (kg), shared_electricity (kwh)
+
+22, IF - Pantelimon, eBlocAdmin, 11, 7, 20, 8, 25
+
+23, IF - Pantelimon, eBlocAdmin, 31, 12, 28, 14, 25
+
+
+# comments of file 2 - unit prices (up) in RON
+
+# up_water_in, up_water_out, up_recycled_waste, up_waste, up_shared_electricity
+
+4.7, 3.9, 1.2, 3.5, 0.98
+
+
+
+--- Points dynamically requested by the teacher:
+
+(1p) JCF - Java Collection Framework - e.g. the TCP server after receiving the text file is parsing them and create a list of houses and sort them descending, without functional programming, according with their total monthly expenses in RON
+
+
+(1p) Functional programming - Lambda, Functional Interfaces, Functional Processing Streams
+
+
+(2p) JDBC - SQLite (e.g. insert only certain houses in some SQL table and display them)
